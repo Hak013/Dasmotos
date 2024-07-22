@@ -1,0 +1,42 @@
+* {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color:blueviolet
+}
+
+table {
+    margin: auto;
+    border: 2px solid purple; /* Bordure pour chaque cellule */
+}
+
+th, td {
+    padding: 0 10px;
+    text-align: left; /* Aligne le texte à gauche */
+    border-left: 0.5px solid lightgrey;
+    border-right: 0.5px solid lightgrey;
+    border-top: 1px solid blueviolet;
+    padding-bottom: 1px;
+}
+
+th {
+    background-color: plum;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.tag {
+    background-color: white;
+    font-family: 'Playwrite NG Modern';
+}
+
+header h1 {
+    margin-top: 3px;
+}
